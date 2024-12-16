@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fallback for Inter */
+@font-face {
+  font-family: "Adjusted Arial Fallback";
+  src: local(arial);
+  ascent-override: 94%;
+  descent-override: normal;
+  line-gap-override: 9%;
+  size-adjust: 98%;
+}
+
+@font-face {
+  font-family: "InterV";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url("/fonts/InterVariable.woff2") format("woff2");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "InterV";
+}
