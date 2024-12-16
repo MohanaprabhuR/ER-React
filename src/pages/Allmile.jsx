@@ -28,7 +28,7 @@ const data = {
       heading: "Eliminate first-mile defects, elevate customer trust",
       subheading:
         "Ensure accurate task assignments during first-mile pickup and avoid re-deliveries to increase workforce productivity and elevate customer trust",
-      imageUrl: "../../public/images/All-mile/seamless-logistics-img.png",
+      imageUrl: "../../images/All-mile/seamless-logistics-img.png",
       imageAlt:
         "Seamless Logistics, End-to-end AI-powered autonomous logistics operations",
       PopUpVideo: (
@@ -44,7 +44,7 @@ const data = {
       subheading:
         "Ensure accurate task assignments during first-mile pickup and avoid re-deliveries to increase workforce productivity and elevate customer trust",
       column: true,
-      imageUrl: "../../public/images/All-mile/first-mile-trust.png",
+      imageUrl: "../../images/All-mile/first-mile-trust.png",
       imageAlt:
         "First Mile, Eliminate First-Mile Defects, Elevate Customer Trust",
     },
@@ -54,7 +54,7 @@ const data = {
       subheading:
         "Deliver on-time by assigning deliveries to the best agents based on location, route, risk profile, delivery time and more, ensuring a delightful customer experience",
       column: true,
-      imageUrl: "../../public/images/All-mile/svg/last-mile.svg",
+      imageUrl: "../../images/All-mile/svg/last-mile.svg",
       imageAlt:
         "Last Mile, Consistently Assure Seamless Last- Mile Customer Experience",
     },
