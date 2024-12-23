@@ -1,4 +1,3 @@
-// about.js
 import Herosection from "../Components/HeroSection";
 import Ratting from "../Components/Rating";
 import ScheduleButton from "../Components/Button/ScheduleButton";

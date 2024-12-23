@@ -27,3 +27,9 @@ html {
 body {
   font-family: "InterV";
 }
+
+
+
+.animation-card:hover .marquee__group {
+  animation-play-state: paused;
+}

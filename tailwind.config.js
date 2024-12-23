@@ -29,6 +29,10 @@ export default {
         "logo-right-shadow": "url('./images/all-mile-right-shadow.png')",
         "hero-bg": "url('./images/hero-bg.png')",
         "line-gradient": "url('./images/svg/line-gradient.svg')",
+        "about-hero": "url('./images/About/about-hero-bg.png')",
+        "thumbnail-shadow": "url('./images/About/thumbnail-shadow.png')",
+        "team-image-shadow": "url('./images/About/team-image-shadow.png')",
+        "customer-bg":"url('./images/About/customer-bg.png')",
       },
       boxShadow: {
         "3xl":

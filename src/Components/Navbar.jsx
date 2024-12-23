@@ -7,11 +7,11 @@ const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
   const [scrolled, setScrolled] = useState(false);
-  const [heroHeight, setHeroHeight] = useState(1000); 
+  const [heroHeight, setHeroHeight] = useState(1000);
 
   useEffect(() => {
     const updateHeroHeight = () => {
-      const heroSection = document.querySelector(".heigth-section"); 
+      const heroSection = document.querySelector(".heigth-section");
       if (heroSection) {
         setHeroHeight(heroSection.offsetHeight);
       }
@@ -100,6 +100,18 @@ const Navbar = () => {
                   to="/allmile"
                 >
                   AllMile
+                </Link>
+              </li>
+              <li className="cursor-pointer py-[26px] max-xl:py-5 max-lg:py-4 max-md:w-full max-md:border-b max-md:border-solid max-md:border-b-[#9CAADD] max-md:py-5 max-md:text-left max-sm:w-full max-sm:text-left active">
+                <Link
+                  className={`${
+                    location.pathname === "/" && !scrolled
+                      ? "opacity-70 text-white hover:opacity-100"
+                      : "text-gray-900 hover:text-[#F96D44]"
+                  } nav-link-home text-center font-sans text-base leading-6 tracking-[-0.08px] transition-all duration-300 font-wght-510 active`}
+                  to="/about"
+                >
+                  About
                 </Link>
               </li>
               <li className="cursor-pointer py-[26px] max-xl:py-5 max-lg:py-4 max-md:w-full max-md:border-b max-md:border-solid max-md:border-b-[#9CAADD] max-md:py-5 max-md:text-left max-sm:w-full max-sm:text-left active">
