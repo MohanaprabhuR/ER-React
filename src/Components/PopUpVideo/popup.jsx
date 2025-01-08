@@ -25,9 +25,8 @@ const Popup = ({ isOpen, onClose, videoId }) => {
         <iframe
           width="765px"
           height="432px"
-          src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1`} // Autoplay & mute parameters
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1`} 
           title="YouTube video player"
-          frameBorder="0"
           allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>

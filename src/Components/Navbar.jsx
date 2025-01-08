@@ -97,9 +97,9 @@ const Navbar = () => {
                       ? "opacity-70 text-white hover:opacity-100"
                       : "text-gray-900 hover:text-[#F96D44]"
                   } nav-link-home text-center font-sans text-base leading-6 tracking-[-0.08px] transition-all duration-300 font-wght-510 active`}
-                  to="/allmile"
+                  to="/product"
                 >
-                  AllMile
+                  Product
                 </Link>
               </li>
               <li className="cursor-pointer py-[26px] max-xl:py-5 max-lg:py-4 max-md:w-full max-md:border-b max-md:border-solid max-md:border-b-[#9CAADD] max-md:py-5 max-md:text-left max-sm:w-full max-sm:text-left active">
