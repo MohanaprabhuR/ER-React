@@ -1,5 +1,3 @@
-import React from "react";
-
 const VoiceOfCustomerSection = ({ customerHeading, testimonials }) => {
   return (
     <section className="overflow-hidden bg-customer-bg bg-cover bg-no-repeat pb-[100px] pt-32 max-md:py-20 max-sm:py-[60px]">

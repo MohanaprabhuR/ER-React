@@ -252,8 +252,7 @@ const pageDate = {
     testimonials: [
       {
         id: 1,
-        testimonialContent:
-          `"ElasticRun, receives the prestigious "Best HIH_Budding Partner” award from Flipkart! This recognition is a true testament to the dedication, collaboration, and unwavering commitment to excellence that the ElasticRun team consistently demonstrates.`,
+        testimonialContent: `"ElasticRun, receives the prestigious "Best HIH_Budding Partner” award from Flipkart! This recognition is a true testament to the dedication, collaboration, and unwavering commitment to excellence that the ElasticRun team consistently demonstrates.`,
         testimonialImage: "../../images/About/logo-flipkart.png",
         isLogo: true,
         testimonialName: "Flipkart",
@@ -261,34 +260,30 @@ const pageDate = {
       {
         testimonialContent:
           "In my darkest times with no support and a struggling shop, ElasticRun is my saviour. They delivered stocks weekly, sparing me from traveling to the city. Their discounts boosted our business, and life improved significantly. Grateful for their support and a true blessing in difficult times.",
-        testimonialImage: "/ikea-logo.png",
+        testimonialImageLogo: "/ikea-logo.png",
         testimonialName: "Sharada Shinde",
-      testimonialRole: "Kirana Store Owner",
-      testimonialImage: "../../images/About/shinde.png",
-      isLogo: false
+        testimonialRole: "Kirana Store Owner",
+        testimonialImage: "../../images/About/shinde.png",
+        isLogo: false,
       },
       {
-        testimonialContent:
-         `IKEA India stands at #1 in “Zero emissions Last mile delivery”. Your team’s hard work, perseverance, and dedication have paid off, and this success is a testament to your commitment to sustainable logistics. Keep up the great work!`,
-        testimonialImage: "/ikea-logo.png",
+        testimonialContent: `IKEA India stands at #1 in “Zero emissions Last mile delivery”. Your team’s hard work, perseverance, and dedication have paid off, and this success is a testament to your commitment to sustainable logistics. Keep up the great work!`,
+        testimonialImageLogo: "/ikea-logo.png",
         isLogo: true,
         testimonialImage: "../../images/About/logo-ikea.png",
         testimonialName: "IKEA",
-
       },
       {
-        testimonialContent:
-         `I have access to all commodities at a lower cost than other companies. I get products delivered at my door steps. Thanks to ElasticRun.`,
-        testimonialImage: "/ikea-logo.png",
+        testimonialContent: `I have access to all commodities at a lower cost than other companies. I get products delivered at my door steps. Thanks to ElasticRun.`,
+        testimonialImageLogo: "/ikea-logo.png",
         testimonialName: "Jishu Roy",
         testimonialRole: "Kirana Store Owner",
         testimonialImage: "../../images/About/jishu-roy.jpg",
-        isLogo: false
+        isLogo: false,
       },
       {
-        testimonialContent:
-         `A big congratulations to ElasticRun for being our proud partner in Amazon's Sustainability Journey and for their leadership in sustainable transportation! We are excited to see their continued support in helping Amazon achieve Net Zero Carbon by 2040.`,
-        testimonialImage: "/ikea-logo.png",
+        testimonialContent: `A big congratulations to ElasticRun for being our proud partner in Amazon's Sustainability Journey and for their leadership in sustainable transportation! We are excited to see their continued support in helping Amazon achieve Net Zero Carbon by 2040.`,
+        testimonialImageLogo: "/ikea-logo.png",
         isLogo: true,
         testimonialImage: "../../images/About/logo-amazon.png",
         testimonialName: "Amazon",
