@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Popup from "./PopUpVideo/Popup";
+import Popup from './PopUpVideo/Popup';
 import "./PopUpVideo/PopupVideo.css";
 
 const PurposeCard = ({ cardHeading, cardSubheading,videoUrl,imageUrl,imageAlt }) => {
